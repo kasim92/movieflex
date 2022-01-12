@@ -16,7 +16,7 @@
       </template>
       <template #donwload>
         <p class="text-title mt-3 font-weight-bold">You can get the APP</p>
-        <div class="d-flex justify-start align-start">
+        <div class="mb-10 d-flex justify-start align-start">
           <a href="#">
             <v-img contain width="100" :src="'/images/apple.png'" />
           </a>
