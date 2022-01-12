@@ -3,13 +3,9 @@
     <v-main>
       <Nuxt />
     </v-main>
-    <v-footer dark padless >
-      <v-card class="flex" flat tile color="black">
-        <v-card-text class="py-2 white--text text-center" color="black">
-          copyright © {{ new Date().getFullYear() }} 
-          <strong class="red--text">Shashety</strong>
-        </v-card-text>
-      </v-card>
+    <v-footer class="mx-auto my-10" dark padless color="black">
+      <span>copyright © {{ new Date().getFullYear() }}</span>
+      <strong class="red--text"> Shashety</strong>
     </v-footer>
   </v-app>
 </template>
