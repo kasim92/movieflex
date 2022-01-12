@@ -66,7 +66,7 @@ export default {
   components: { BaseButton, WebsiteCard, Hero, CenterHero },
   head() {
     return {
-      title: "Movieflex - What is Streaming Now ?",
+      title: "Movieflex",
       meta: [
         {
           hid: 'description',
