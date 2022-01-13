@@ -1,16 +1,13 @@
 <template>
-    <v-row align="center">
-        <v-col cols="12">
-            <v-img contain :src="'/images/third.png'" alt="Vuetify.js" />
-        </v-col>
-    </v-row>
+  <v-row align="center">
+    <v-col cols="12" class="my-10">
+      <base-image contain :img="'/images/third.jpg'" />
+    </v-col>
+  </v-row>
 </template>
 
 <script>
-export default {
-
-}
+export default {};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>
