@@ -14,7 +14,7 @@ export default {
       {
         hid: "description",
         name: "description",
-        content: "my amazing application",
+        content: "watch , movies, online, series, streaming, latest",
       },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

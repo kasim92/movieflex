@@ -16,10 +16,17 @@
       <template #donwload>
         <p class="text-title mt-3 font-weight-bold">You can get the APP</p>
         <div class="mb-10 d-flex justify-start align-start">
-          <a href="https://play.google.com/store/apps/details?id=net.halasat.tv">
+          <a
+            href="https://play.google.com/store/apps/details?id=net.halasat.tv"
+            aria-label="apple halasat"
+          >
             <v-img contain width="100" :src="'/images/apple.jpg'" />
           </a>
-          <a href="https://play.google.com/store/apps/details?id=net.halasat.tv" class="mx-2">
+          <a
+            href="https://play.google.com/store/apps/details?id=net.halasat.tv"
+            class="mx-2"
+            aria-label="play store halasat"
+          >
             <v-img contain width="100" :src="'/images/play.jpg'" />
           </a>
         </div>
@@ -71,7 +78,7 @@ export default {
           {
             hid: "description",
             name: "description",
-            content: "my amazing application",
+            content: "watch , movies, online, series, streaming, latest",
           },
         ],
       },
