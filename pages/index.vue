@@ -65,17 +65,12 @@ export default {
   components: { BaseButton, WebsiteCard, Hero, CenterHero },
   head() {
     return {
-      title: "Movieflex",
+      title: "Cinema Shashety",
       meta: [
         {
-          hid: "description",
-          name: "description",
-          content: "Get all Latest streaming movies in theaters & online",
-        },
-        {
-          hid: "keywords",
-          name: "keywords",
-          content: "movies, stream, streaming",
+          hid: "Shashety Cinema",
+          name: "Shashety Cinema is online streaming service , latest movies and series",
+          content: "watch , movies, online, series, streaming, latest",
         },
       ],
     };
