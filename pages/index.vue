@@ -16,10 +16,10 @@
       <template #donwload>
         <p class="text-title mt-3 font-weight-bold">You can get the APP</p>
         <div class="mb-10 d-flex justify-start align-start">
-          <a href="#">
+          <a href="https://play.google.com/store/apps/details?id=net.halasat.tv">
             <v-img contain width="100" :src="'/images/apple.jpg'" />
           </a>
-          <a href="#" class="mx-2">
+          <a href="https://play.google.com/store/apps/details?id=net.halasat.tv" class="mx-2">
             <v-img contain width="100" :src="'/images/play.jpg'" />
           </a>
         </div>
