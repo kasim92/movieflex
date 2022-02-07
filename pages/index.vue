@@ -65,14 +65,16 @@ export default {
   components: { BaseButton, WebsiteCard, Hero, CenterHero },
   head() {
     return {
-      title: "Cinema Shashety",
-      meta: [
-        {
-          hid: "Cinema",
-          name: "Shashety",
-          content: "Home Cinema Shashety",
-        },
-      ],
+      head: {
+        title: "Cinema Shashety",
+        meta: [
+          {
+            hid: "description",
+            name: "description",
+            content: "my amazing application",
+          },
+        ],
+      },
     };
   },
   data() {
