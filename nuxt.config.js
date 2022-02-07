@@ -14,12 +14,7 @@ export default {
       {
         hid: "Cinema",
         name: "Shashety",
-        content: "movies, stream, streaming, watching, online",
-      },
-      {
-        hid: "Shashety",
-        name: "Cinema",
-        content: "movies, stream, streaming, watching, online",
+        content: "movies, stream, streaming",
       },
       { name: "format-detection", content: "telephone=no" },
     ],
