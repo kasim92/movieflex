@@ -70,7 +70,7 @@ export default {
         {
           hid: "Cinema",
           name: "Shashety",
-          content: "movies, stream, streaming",
+          content: "Home Cinema Shashety",
         },
       ],
     };
