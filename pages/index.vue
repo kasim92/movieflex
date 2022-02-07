@@ -68,9 +68,9 @@ export default {
       title: "Cinema Shashety",
       meta: [
         {
-          hid: "ShashetyCinema",
-          name: "ShashetyCinema",
-          content: "watch , movies, online, series, streaming, latest",
+          hid: "keywords",
+          name: "keywords",
+          content: "movies, stream, streaming",
         },
       ],
     };
