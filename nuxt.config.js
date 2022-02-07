@@ -11,7 +11,11 @@ export default {
     meta: [
       { charset: "utf-8" },
       { name: "viewport", content: "width=device-width, initial-scale=1" },
-      { hid: "Shashety", name: "online streaming movies", content: "xx" },
+      {
+        hid: "Cinema",
+        name: "Shashety",
+        content: "movies, stream, streaming",
+      },
       { name: "format-detection", content: "telephone=no" },
     ],
     link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],

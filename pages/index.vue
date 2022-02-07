@@ -66,7 +66,13 @@ export default {
   head() {
     return {
       title: "Cinema Shashety",
-      meta: [{ hid: "Shashety", name: "online streaming movies", content: "xx" }],
+      meta: [
+        {
+          hid: "Cinema",
+          name: "Shashety",
+          content: "movies, stream, streaming",
+        },
+      ],
     };
   },
   data() {
