@@ -1,26 +1,18 @@
 <template>
-    <div></div>
+  <div></div>
 </template>
 
 <script>
-
 export default {
-    head() {
-        return {
+  head() {
+    return {};
+  },
+  data() {
+    return {};
+  },
 
-        }
-    },
-    data() {
-        return {
-
-        }
-    },
-
-    methods: {
-
-    },
-}
+  methods: {},
+};
 </script>
 
-<style lang="scss" scoped>
-</style>
+<style lang="scss" scoped></style>

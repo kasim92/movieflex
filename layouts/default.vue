@@ -4,8 +4,8 @@
       <Nuxt />
     </v-main>
     <v-footer class="mx-auto my-10" dark padless color="black">
-      <span>copyright © {{ new Date().getFullYear() }}</span>
-      <strong class="red--text"> Shashety</strong>
+      <strong class="red--text"> شاشتي</strong>
+      <span class="mx-2">حقوق النشر © {{ new Date().getFullYear() }}</span>
     </v-footer>
   </v-app>
 </template>
@@ -13,11 +13,9 @@
 <script>
 export default {
   data() {
-    return {
-
-    }
-  }
-}
+    return {};
+  },
+};
 </script>
 
 <style>

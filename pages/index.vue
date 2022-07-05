@@ -5,27 +5,31 @@
     <!-- end hero image -->
     <!-- first section  -->
     <website-card
-      cardTitle="Shashety Cinema"
+      dir="rtl"
+      cardTitle="سينما شاشتي"
       imgpath="/images/firstimg.jpg"
       class="my-n11"
-      description="An entertainment platform for watching international and Arab films and series, with a daily update of the latest cinematic works"
+      description="منصة ترفيهية لمشاهدة الأفلام والمسلسلات العالمية والعربية ، مع تحديث يومي لأحدث الأعمال السينمائية"
     >
       <template #button>
-        <base-button title="Visit the Website" />
+        <base-button
+          title="قم بزيارة الموقع"
+          :link="'http://cinema.shashety.com/'"
+        />
       </template>
       <template #donwload>
-        <p class="text-title mt-3 font-weight-bold">You can get the APP</p>
+        <p class="text-title mt-3 font-weight-bold">يمكنك الحصول على التطبيق</p>
         <div class="mb-10 d-flex justify-start align-start">
           <a
-            href="https://play.google.com/store/apps/details?id=net.halasat.tv"
-            aria-label="apple halasat"
+            href="https://apps.apple.com/sa/app/shashety/id1448378384"
+            aria-label="apple"
           >
             <v-img contain width="100" :src="'/images/apple.jpg'" />
           </a>
           <a
             href="https://play.google.com/store/apps/details?id=net.halasat.tv"
             class="mx-2"
-            aria-label="play store halasat"
+            aria-label="play store"
           >
             <v-img contain width="100" :src="'/images/play.jpg'" />
           </a>
@@ -40,24 +44,32 @@
 
     <!-- third section -->
     <website-card
-      cardTitle="Shashety Live TV"
+      dir="rtl"
+      cardTitle="شاشتي TV"
       imgpath="/images/football.jpg"
-      description="A platform for sharing digital content that contains the largest library of programs and electronic games that are ready and can be activated and used"
+      description="منصة لمشاهدة القنوات الرياضية و المسلسلات و الافلام"
     >
       <template #button>
-        <base-button title="Visit the Website" />
+        <base-button
+          title="قم بزيارة الموقع"
+          :link="'http://tv.shashety.com'"
+        />
       </template>
     </website-card>
     <!-- end third section -->
 
     <!-- last section-->
     <website-card
-      cardTitle="Shashety Share"
+      dir="rtl"
+      cardTitle="شاشتي شير"
       imgpath="/images/download.jpg"
-      description="A platform for sharing digital content that contains the largest library of programs and electronic games that are ready and can be activated and used"
+      description="منصة لمشاركة المحتوى الرقمي تحتوي على أكبر مكتبة من البرامج والألعاب الإلكترونية الجاهزة والقابلة للتفعيل والاستخدام"
     >
       <template #button>
-        <base-button title="Visit the Website" />
+        <base-button
+          title="قم بزيارة الموقع"
+          :link="`http://share.shashety.com/`"
+        />
       </template>
     </website-card>
     <!-- end last section-->
@@ -73,12 +85,15 @@ export default {
   head() {
     return {
       head: {
-        title: "Cinema Shashety",
+        title: "Shashety",
         meta: [
           {
-            hid: "description",
-            name: "description",
-            content: "watch , movies, online, series, streaming, latest",
+            hid: "شاشتي",
+            name: "شاشتي",
+            content:
+              "شاشتي هو موقع اونلاين لتحميل و مشاهدة الافلام و المسلسلات العربية و الاجنبية",
+            keywords:
+              "مشاهدة ,شاشتي , شبكتي , مباشر , شبكتي , سنيمانا , سينما,شير,الشير , تنزيل ملفات , افلام, اونلاين , مسلسلات , مشاهدة اونلاين , تحميل افلام,شاشة, اخر الافلام , اخر المسلسلات",
           },
         ],
       },

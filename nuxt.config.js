@@ -3,22 +3,34 @@ import colors from "vuetify/es5/util/colors";
 export default {
   // Global page headers: https://go.nuxtjs.dev/config-head
   head: {
-    titleTemplate: "%s - HalaSat",
-    title: "ShashetyCinema",
+    titleTemplate: "%s",
+    title: "شاشتي",
     htmlAttrs: {
-      lang: "en",
+      lang: "ar",
     },
-    meta: [
-      { charset: "utf-8" },
-      { name: "viewport", content: "width=device-width, initial-scale=1" },
+    meta: [{
+        charset: "utf-8"
+      },
       {
-        hid: "description",
-        name: "description",
-        content: "watch , movies, online, series, streaming, latest",
+        name: "viewport",
+        content: "width=device-width, initial-scale=1"
+      },
+      {
+        hid: "شاشتي",
+        name: "شاشتي",
+        content: "شاشتي هو موقع اونلاين لتحميل و مشاهدة الافلام و المسلسلات العربية و الاجنبية",
+        keywords: "مشاهدة ,شاشتي , شبكتي , مباشر , شبكتي , سنيمانا , سينما,شير,الشير , تنزيل ملفات , افلام, اونلاين , مسلسلات , مشاهدة اونلاين , تحميل افلام,شاشة, اخر الافلام , اخر المسلسلات",
       },
     ],
-    link: [{ rel: "icon", type: "image/x-icon", href: "/favicon.ico" }],
+    link: [{
+      rel: "icon",
+      type: "image/x-icon",
+      href: "/favicon.ico"
+    }],
   },
+
+  target: 'static',
+
   //  { hid: 'Shashety Cinema', name: 'Shashety Cinema is online streaming service , latest movies and series', content: 'watch , movies, online, series, streaming, latest' },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
