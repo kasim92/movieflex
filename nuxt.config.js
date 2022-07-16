@@ -9,6 +9,10 @@ export default {
       lang: "ar",
     },
     meta: [{
+        name: 'description',
+        content: 'شاشتي هو موقع اونلاين لتحميل و مشاهدة الافلام و المسلسلات العربية و الاجنبية'
+      },
+      {
         charset: "utf-8"
       },
       {
@@ -29,7 +33,7 @@ export default {
     }],
   },
 
-  target: 'static',
+  // target: 'static',
 
   //  { hid: 'Shashety Cinema', name: 'Shashety Cinema is online streaming service , latest movies and series', content: 'watch , movies, online, series, streaming, latest' },
 
@@ -48,6 +52,7 @@ export default {
     // '@nuxtjs/eslint-module',
     // https://go.nuxtjs.dev/vuetify
     "@nuxtjs/vuetify",
+    "@nuxt/image"
   ],
 
   // Modules: https://go.nuxtjs.dev/config-modules

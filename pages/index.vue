@@ -82,23 +82,6 @@ import Hero from "~/components/Hero.vue";
 import CenterHero from "~/components/CenterHero.vue";
 export default {
   components: { BaseButton, WebsiteCard, Hero, CenterHero },
-  head() {
-    return {
-      head: {
-        title: "Shashety",
-        meta: [
-          {
-            hid: "شاشتي",
-            name: "شاشتي",
-            content:
-              "شاشتي هو موقع اونلاين لتحميل و مشاهدة الافلام و المسلسلات العربية و الاجنبية",
-            keywords:
-              "مشاهدة ,شاشتي , شبكتي , مباشر , شبكتي , سنيمانا , سينما,شير,الشير , تنزيل ملفات , افلام, اونلاين , مسلسلات , مشاهدة اونلاين , تحميل افلام,شاشة, اخر الافلام , اخر المسلسلات",
-          },
-        ],
-      },
-    };
-  },
   data() {
     return {};
   },

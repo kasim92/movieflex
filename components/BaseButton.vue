@@ -1,18 +1,13 @@
 <template>
-  <v-btn
-    v-bind="$attrs"
-    v-on="$listeners"
-    color="warning"
-    class="rounded-lg px-4 py-4"
-    small
-    @click="go"
-    >
-    <span class="text-h6">{{ title }}</span>
-    </v-btn
+  <a
+    :href="link"
+    target="_blank"
+    class="rounded-lg px-4 py-1 warning text-h7 white--text"
+    style="text-decoration: none; color: inherit"
+    rel="noopener noreferrer"
+    >{{ title }}</a
   >
 </template>
-
-
 
 <script>
 export default {

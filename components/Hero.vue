@@ -1,7 +1,6 @@
 <template>
   <div>
     <base-image contain class="mx-auto" :img="'/images/1.png'" />
-
     <!-- <v-img contain :src="'/images/1.png'" /> -->
   </div>
 </template>
